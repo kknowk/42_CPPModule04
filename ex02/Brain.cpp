@@ -6,7 +6,7 @@
 /*   By: khorike <khorike@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 14:29:19 by khorike           #+#    #+#             */
-/*   Updated: 2023/09/04 16:15:23 by khorike          ###   ########.fr       */
+/*   Updated: 2023/09/05 15:37:30 by khorike          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,5 @@ Brain& Brain::operator=(const Brain& other) {
 }
 
 Brain::~Brain() {
-    // デストラクタの内容
-    // 特に何もしなくて良いが、メッセージを出力することが求められているので
     std::cout << "Brain destructor called." << std::endl;
 }
